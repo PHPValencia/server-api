@@ -5,8 +5,8 @@ date_default_timezone_set('Europe/Madrid');
 
 $app = new Silex\Application(); 
 
-$app->get('/', function($name) use($app) { 
-    return 'PHP Valencia API';
+$app->get('/', function() use($app) { 
+    return 'PHP Valencia API '; 
 }); 
 
 $app->run(); 
