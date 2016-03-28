@@ -7,7 +7,8 @@
     	"twig/twig": "~1.24"
     },
     "require-dev": {
-    	"behat/behat": "~3.0"
+    	"behat/behat": "~3.0",
+    	"guzzlehttp/guzzle": "~6.2"
 	},	
 	"autoload": {
 		"psr-4": {
